@@ -305,6 +305,7 @@ int CLASS::operator[](size_t index) const {
 
 **Volání v `main`**
 ```cpp
+u1.pridejhodnotu(20)
 int prvniPrvek = u1[0];
 std::cout << "Prvni prvek: " << u1[0] << std::endl;
 ```
