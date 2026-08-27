@@ -62,7 +62,7 @@ CLASS& operator-=(double hodnota);
 **Definice (`.cpp`)**
 ```cpp
 CLASS& CLASS::operator-=(double hodnota) {
-    this->hodnota -= hodnota;
+    this->hodnota -= hodnota; / nebo např. vector.push_back(hodnota)
     return *this;
 }
 ```
