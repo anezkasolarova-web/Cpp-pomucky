@@ -201,7 +201,7 @@ CLASS operator++(int);     // Postfix: u1++
 ```cpp
 // Prefix
 CLASS& CLASS::operator++() {
-    this->hodnota++;
+    this->hodnota+=10;
     return *this;
 }
 
